@@ -1,0 +1,355 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/header.jpg",
+      "size": "Stretch",
+      "altText": "Header Polaris"
+    },
+    {
+      "type": "TextBlock",
+      "text": "RELATÓRIO INFORMACIONAL IR - {{data_oferta_hora_max}}",
+      "weight": "Bolder",
+      "size": "Large",
+      "color": "Accent",
+      "horizontalAlignment": "Center"
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "INFORMAÇÕES GERAIS",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-0", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_D_0}}\nCanc:{{PARCIAL_CANCELADOS_D_0}}\nRet:{{PARCIAL_RETIDOS_D_0}}\nIR:{{TAXA_RETENCAO_GERAL_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+          { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-1", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_D_1}}\nCanc:{{PARCIAL_CANCELADOS_D_1}}\nRet:{{PARCIAL_RETIDOS_D_1}}\nIR:{{TAXA_RETENCAO_GERAL_D_1}}",
+              "wrap": true
+            }
+          ]
+        },
+          { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-3", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_D_3}}\nCanc:{{PARCIAL_CANCELADOS_D_3}}\nRet:{{PARCIAL_RETIDOS_D_3}}\nIR:{{TAXA_RETENCAO_GERAL_D_3}}",
+              "wrap": true
+            }
+          ]
+        },
+          { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-7", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_D_7}}\nCanc:{{PARCIAL_CANCELADOS_D_7}}\nRet:{{PARCIAL_RETIDOS_D_7}}\nIR:{{TAXA_RETENCAO_GERAL_D_7}}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "INFORMAÇÕES POR ABERTURA DE INFRACO - IHS",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-0", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_IHS_D_0}}\nCanc:{{PARCIAL_CANCELADOS_IHS_D_0}}\nRet:{{PARCIAL_RETIDOS_IHS_D_0}}\nIR:{{TAXA_RETENCAO_IHS_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-1", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_IHS_D_1}}\nCanc:{{PARCIAL_CANCELADOS_IHS_D_1}}\nRet:{{PARCIAL_RETIDOS_IHS_D_1}}\nIR:{{TAXA_RETENCAO_IHS_D_1}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-3", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_IHS_D_3}}\nCanc:{{PARCIAL_CANCELADOS_IHS_D_3}}\nRet:{{PARCIAL_RETIDOS_IHS_D_3}}\nIR:{{TAXA_RETENCAO_IHS_D_3}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-7", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_IHS_D_7}}\nCanc:{{PARCIAL_CANCELADOS_IHS_D_7}}\nRet:{{PARCIAL_RETIDOS_IHS_D_7}}\nIR:{{TAXA_RETENCAO_IHS_D_7}}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "INFORMAÇÕES POR ABERTURA DE INFRACO - VTAL",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-0", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_VTAL_D_0}}\nCanc:{{PARCIAL_CANCELADOS_VTAL_D_0}}\nRet:{{PARCIAL_RETIDOS_VTAL_D_0}}\nIR:{{TAXA_RETENCAO_VTAL_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-1", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_VTAL_D_1}}\nCanc:{{PARCIAL_CANCELADOS_VTAL_D_1}}\nRet:{{PARCIAL_RETIDOS_VTAL_D_1}}\nIR:{{TAXA_RETENCAO_VTAL_D_1}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-3", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_VTAL_D_3}}\nCanc:{{PARCIAL_CANCELADOS_VTAL_D_3}}\nRet:{{PARCIAL_RETIDOS_VTAL_D_3}}\nIR:{{TAXA_RETENCAO_VTAL_D_3}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-7", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_VTAL_D_7}}\nCanc:{{PARCIAL_CANCELADOS_VTAL_D_7}}\nRet:{{PARCIAL_RETIDOS_VTAL_D_7}}\nIR:{{TAXA_RETENCAO_VTAL_D_7}}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "INFORMAÇÕES POR ABERTURA DE SITE - TMKT",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-0", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_TMKT_D_0}}\nCanc:{{PARCIAL_CANCELADOS_TMKT_D_0}}\nRet:{{PARCIAL_RETIDOS_TMKT_D_0}}\nIR:{{TAXA_RETENCAO_TMKT_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-1", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_TMKT_D_1}}\nCanc:{{PARCIAL_CANCELADOS_TMKT_D_1}}\nRet:{{PARCIAL_RETIDOS_TMKT_D_1}}\nIR:{{TAXA_RETENCAO_TMKT_D_1}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-3", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_TMKT_D_3}}\nCanc:{{PARCIAL_CANCELADOS_TMKT_D_3}}\nRet:{{PARCIAL_RETIDOS_TMKT_D_3}}\nIR:{{TAXA_RETENCAO_TMKT_D_3}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-7", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_TMKT_D_7}}\nCanc:{{PARCIAL_CANCELADOS_TMKT_D_7}}\nRet:{{PARCIAL_RETIDOS_TMKT_D_7}}\nIR:{{TAXA_RETENCAO_TMKT_D_7}}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "TextBlock",
+      "text": "INFORMAÇÕES POR ABERTURA DE SITE - CONTAX",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-0", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_CONTAX_D_0}}\nCanc:{{PARCIAL_CANCELADOS_CONTAX_D_0}}\nRet:{{PARCIAL_RETIDOS_CONTAX_D_0}}\nIR:{{TAXA_RETENCAO_CONTAX_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-1", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_CONTAX_D_1}}\nCanc:{{PARCIAL_CANCELADOS_CONTAX_D_1}}\nRet:{{PARCIAL_RETIDOS_CONTAX_D_0}}\nIR:{{TAXA_RETENCAO_CONTAX_D_0}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-3", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_CONTAX_D_3}}\nCanc:{{PARCIAL_CANCELADOS_CONTAX_D_3}}\nRet:{{PARCIAL_RETIDOS_CONTAX_D_3}}\nIR:{{TAXA_RETENCAO_CONTAX_D_3}}",
+              "wrap": true
+            }
+          ]
+        },
+        { "type": "Column", "width": "auto", "items": [] },
+        {
+          "type": "Column",
+          "items": [
+            { "type": "TextBlock", "text": "D-7", "weight": "Bolder", "horizontalAlignment": "Center" },
+            {
+              "type": "TextBlock",
+              "text": "Solic:{{PARCIAL_SOLICITACOES_CONTAX_D_7}}\nCanc:{{PARCIAL_CANCELADOS_CONTAX_D_7}}\nRet:{{PARCIAL_RETIDOS_CONTAX_D_7}}\nIR:{{TAXA_RETENCAO_CONTAX_D_7}}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "LINKS POWER BI - ACOMPANHAMENTO DETALHADO",
+      "weight": "Bolder",
+      "color": "Accent",
+      "horizontalAlignment": "Center",
+      "separator": true
+    },
+    {
+        "type": "ActionSet",
+        "actions": [
+          {
+            "type": "Action.OpenUrl",
+            "title": "POLARIS CORE",
+            "url": "https://app.powerbi.com/groups/me/reports/b26db998-2fcd-4e6d-a0dd-84f43f731f45/473bf1de89e1db8aecb0?ctid=57b8c96e-ac2f-4d78-a149-f1fc6817d3c4&experience=power-bi"
+          },
+        {
+            "type": "Action.OpenUrl",
+            "title": "GERENCIAL RETENÇÃO",
+            "url": "https://app.powerbi.com/groups/me/reports/d46650cb-639c-4a2a-add2-562298533f89/ReportSection3cd769f8a51271c7a613?experience=power-bi"
+          }
+        ]
+    },
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/FLOOTER.png",
+      "size": "Stretch",
+      "altText": "Footer Polaris"
+    }
+  ]
+}

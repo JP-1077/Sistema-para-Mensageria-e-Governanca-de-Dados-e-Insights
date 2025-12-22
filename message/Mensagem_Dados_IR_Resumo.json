@@ -1,0 +1,204 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/header.jpg",
+            "size": "Stretch",
+            "altText": "Header Polaris"
+        },
+        {
+            "type": "TextBlock",
+            "text": "RELATÓRIO RESUMIDO IR - 15:05:53",
+            "weight": "Bolder",
+            "size": "Large",
+            "color": "Accent",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "RESUMO DOS DADOS DO INDICADOR IR",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Realizado:** 318\n**IR:** 70.6%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Realizado:** 453\n**Var:** -29.8%\n**IR:** 69.4%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Realizado:** 437\n**Var:**-27.2%\n**IR:** 71.5%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**Realizado:** 415\n**Var:**-23.4%\n**IR:** 70.7%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "RESUMO ABERTURAS IR",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**IR CONTAX:** 83.3%\n**IR TMKT:** 67.9%**\n**IR VTAL:** 62.3%\n**IR IHS:** 72.3%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**IR CONTAX:** 76.0%\n**IR TMKT:** 71.1%**\n**IR VTAL:** 65.1%\n**IR IHS:** 71.7%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**IR CONTAX:** 79.0%\n**IR TMKT:** 72.2%**\n**IR VTAL:** 70.7%\n**IR IHS:** 73.6%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**IR CONTAX:** 78.4%\n**IR TMKT:** 68.3%**\n**IR VTAL:** 69.9%\n**IR IHS:** 71.2%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "LINKS POWER BI - ACOMPANHAMENTO DETALHADO",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "POLARIS CORE",
+                    "url": "https://app.powerbi.com/groups/me/reports/b26db998-2fcd-4e6d-a0dd-84f43f731f45/473bf1de89e1db8aecb0?ctid=57b8c96e-ac2f-4d78-a149-f1fc6817d3c4&experience=power-bi"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "GERENCIAL RETENÇÃO",
+                    "url": "https://app.powerbi.com/groups/me/reports/d46650cb-639c-4a2a-add2-562298533f89/ReportSection3cd769f8a51271c7a613?experience=power-bi"
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/FLOOTER.png",
+            "size": "Stretch",
+            "altText": "Footer Polaris"
+        }
+    ]
+}

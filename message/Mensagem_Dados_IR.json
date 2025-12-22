@@ -1,0 +1,510 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.4",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "body": [
+        {
+            "type": "Image",
+            "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/header.jpg",
+            "size": "Stretch",
+            "altText": "Header Polaris"
+        },
+        {
+            "type": "TextBlock",
+            "text": "RELATÓRIO INFORMACIONAL IR - 15:05:53",
+            "weight": "Bolder",
+            "size": "Large",
+            "color": "Accent",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "INFORMAÇÕES GERAIS",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:1082\nCanc:318\nRet:764\nIR:70.6%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:1480\nCanc:453\nRet:1027\nIR:69.4%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:1531\nCanc:437\nRet:1094\nIR:71.5%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:1418\nCanc:415\nRet:1003\nIR:70.7%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "INFORMAÇÕES POR ABERTURA DE INFRACO - IHS",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:595\nCanc:165\nRet:430\nIR:72.3%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:798\nCanc:226\nRet:572\nIR:71.7%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:850\nCanc:224\nRet:626\nIR:73.6%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:763\nCanc:220\nRet:543\nIR:71.2%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "INFORMAÇÕES POR ABERTURA DE INFRACO - VTAL",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:162\nCanc:61\nRet:101\nIR:62.3%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:238\nCanc:83\nRet:155\nIR:65.1%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:239\nCanc:70\nRet:169\nIR:70.7%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:226\nCanc:68\nRet:158\nIR:69.9%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "INFORMAÇÕES POR ABERTURA DE SITE - TMKT",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:486\nCanc:156\nRet:330\nIR:67.9%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:688\nCanc:199\nRet:489\nIR:71.1%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:709\nCanc:197\nRet:512\nIR:72.2%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:668\nCanc:212\nRet:456\nIR:68.3%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "INFORMAÇÕES POR ABERTURA DE SITE - CONTAX",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-0",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:479\nCanc:80\nRet:399\nIR:83.3%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-1",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:671\nCanc:161\nRet:399\nIR:83.3%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-3",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:672\nCanc:141\nRet:531\nIR:79.0%",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": []
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "D-7",
+                            "weight": "Bolder",
+                            "horizontalAlignment": "Center"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Solic:649\nCanc:140\nRet:509\nIR:78.4%",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "LINKS POWER BI - ACOMPANHAMENTO DETALHADO",
+            "weight": "Bolder",
+            "color": "Accent",
+            "horizontalAlignment": "Center",
+            "separator": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "POLARIS CORE",
+                    "url": "https://app.powerbi.com/groups/me/reports/b26db998-2fcd-4e6d-a0dd-84f43f731f45/473bf1de89e1db8aecb0?ctid=57b8c96e-ac2f-4d78-a149-f1fc6817d3c4&experience=power-bi"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "GERENCIAL RETENÇÃO",
+                    "url": "https://app.powerbi.com/groups/me/reports/d46650cb-639c-4a2a-add2-562298533f89/ReportSection3cd769f8a51271c7a613?experience=power-bi"
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "url": "https://raw.githubusercontent.com/JP-1077/Sistema-para-Gerenciamento-de-Demandas-/refs/heads/main/img/FLOOTER.png",
+            "size": "Stretch",
+            "altText": "Footer Polaris"
+        }
+    ]
+}

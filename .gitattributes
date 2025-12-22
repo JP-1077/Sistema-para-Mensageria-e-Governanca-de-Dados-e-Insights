@@ -1,0 +1,3 @@
+*.py linguist-language=Python
+*.json linguist-language=json
+*.sql linguist-language=TSQL
